@@ -8,7 +8,7 @@ import {
   Bytes,
   Address,
   BigInt
-} from "@graphprotocol/graph-ts";
+} from "dlt-graph-ts";
 
 export class ExampleEvent extends EthereumEvent {
   get params(): ExampleEventParams {

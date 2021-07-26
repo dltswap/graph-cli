@@ -6,8 +6,7 @@ const getGraphTsVersion = sourceDir => {
   let pkgJsonFile = path.join(
     sourceDir,
     'node_modules',
-    '@graphprotocol',
-    'graph-ts',
+    'dlt-graph-ts',
     'package.json',
   )
   let data = fs.readFileSync(pkgJsonFile)

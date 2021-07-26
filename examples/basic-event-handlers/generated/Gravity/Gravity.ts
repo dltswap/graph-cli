@@ -13,7 +13,7 @@ import {
   Address,
   BigInt,
   CallResult
-} from "@graphprotocol/graph-ts";
+} from "dlt-graph-ts";
 
 export class NewGravatar extends EthereumEvent {
   get params(): NewGravatar__Params {

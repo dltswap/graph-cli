@@ -5,7 +5,7 @@ import {
   Address,
   Bytes,
   BigInt
-} from "@graphprotocol/graph-ts";
+} from "dlt-graph-ts";
 
 export class MyEntity extends Entity {
   get name(): string {

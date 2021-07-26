@@ -11,7 +11,7 @@ module.exports = class DataSourceTemplateCodeGenerator {
     return [
       tsCodegen.moduleImports(
         ['Address', 'DataSourceTemplate', 'DataSourceContext'],
-        '@graphprotocol/graph-ts',
+        'dlt-graph-ts',
       ),
     ]
   }

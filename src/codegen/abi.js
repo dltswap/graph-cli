@@ -27,7 +27,7 @@ module.exports = class AbiCodeGenerator {
           'Address',
           'BigInt',
         ],
-        '@graphprotocol/graph-ts',
+        'dlt-graph-ts',
       ),
     ]
   }

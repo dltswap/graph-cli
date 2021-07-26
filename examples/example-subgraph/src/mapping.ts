@@ -6,7 +6,7 @@ import {
   Entity,
   log,
   store,
-} from '@graphprotocol/graph-ts'
+} from 'dlt-graph-ts'
 import {
   ExampleContract,
   ExampleEvent,

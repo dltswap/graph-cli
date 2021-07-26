@@ -38,14 +38,14 @@ class Compiler {
       )
     }
 
-    const globalsFile = path.join('@graphprotocol', 'graph-ts', 'global', 'global.ts')
+    const globalsFile = path.join( 'dlt-graph-ts', 'global', 'global.ts')
     const globalsLib = this.libsDirs.find(item => {
       return fs.existsSync(path.join(item, globalsFile))
     })
 
     if (!globalsLib) {
       throw Error(
-        'Could not locate `@graphprotocol/graph-ts` package in parent directories of subgraph manifest.',
+        'Could not locate `dlt-graph-ts` package in parent directories of subgraph manifest.',
       )
     }
 

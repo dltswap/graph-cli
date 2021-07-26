@@ -1,6 +1,6 @@
 # The Graph CLI (graph-cli)
 
-[![npm (scoped)](https://img.shields.io/npm/v/@graphprotocol/graph-cli.svg)](https://www.npmjs.com/package/@graphprotocol/graph-cli)
+[![npm (scoped)](https://img.shields.io/npm/v/dlt-graph-cli.svg)](https://www.npmjs.com/package/dlt-graph-cli)
 [![Build Status](https://travis-ci.org/graphprotocol/graph-cli.svg?branch=master)](https://travis-ci.org/graphprotocol/graph-cli)
 
 ## The Graph Command Line Interface
@@ -32,10 +32,10 @@ The Graph CLI can be installed with `npm` or `yarn`:
 
 ```sh
 # NPM
-npm install -g @graphprotocol/graph-cli
+npm install -g dlt-graph-cli
 
 # Yarn
-yarn global add @graphprotocol/graph-cli
+yarn global add dlt-graph-cli
 ```
 
 ### On Linux

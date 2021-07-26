@@ -10,7 +10,7 @@ import {
   Bytes,
   BigInt,
   BigDecimal
-} from "@graphprotocol/graph-ts";
+} from "dlt-graph-ts";
 
 export class MyEntity extends Entity {
   constructor(id: string) {

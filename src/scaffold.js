@@ -41,8 +41,8 @@ const generatePackageJson = ({ subgraphName }) =>
           subgraphName,
       },
       dependencies: {
-        '@graphprotocol/graph-cli': `${module.exports.version}`,
-        '@graphprotocol/graph-ts': `0.20.0`,
+        'dlt-graph-cli': `${module.exports.version}`,
+        'dlt-graph-ts': `0.20.0`,
       },
     }),
     { parser: 'json' },
@@ -210,7 +210,7 @@ const generateEventIndexingHandlers = (events, contractName) =>
 
 const generatePlaceholderHandlers = ({ abi, events, contractName }) =>
   `
-  import { BigInt } from '@graphprotocol/graph-ts'
+  import { BigInt } from 'dlt-graph-ts'
   import { ${contractName}, ${events.map(event => event._alias)} }
     from '../generated/${contractName}/${contractName}'
   import { ExampleEntity } from '../generated/schema'
